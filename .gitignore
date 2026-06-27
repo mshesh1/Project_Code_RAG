@@ -49,6 +49,7 @@ myenv/
 # ---- PDF files (sample docs — don't push real fund docs) --------------------
 *.pdf
 !sample_docs/*.pdf
+!Fund Facts - HDFC Income Fund - December 2025 [a].pdf
 
 # ---- Exported data ----------------------------------------------------------
 *.json
