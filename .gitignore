@@ -1,0 +1,89 @@
+# =============================================================================
+# .gitignore — MF Prospectus Extraction System
+# =============================================================================
+
+# ---- Environment & Secrets --------------------------------------------------
+.env
+*.env
+.env.*
+!.env.example
+
+# ---- ChromaDB (vector store — can be large) ---------------------------------
+chroma_db/
+chroma/
+*.chroma
+
+# ---- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+*.manifest
+
+# ---- Virtual environments ---------------------------------------------------
+venv/
+env/
+ENV/
+.venv/
+.env/
+myenv/
+
+# ---- Jupyter Notebooks ------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ---- PDF files (sample docs — don't push real fund docs) --------------------
+*.pdf
+!sample_docs/*.pdf
+
+# ---- Exported data ----------------------------------------------------------
+*.json
+!.env.example
+test_chunks.json
+extracted_sections.json
+
+# ---- Logs -------------------------------------------------------------------
+*.log
+logs/
+*.out
+
+# ---- OS files ---------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ---- IDE -------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Testing ----------------------------------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ---- Temp files -------------------------------------------------------------
+tmp/
+temp/
+*.tmp

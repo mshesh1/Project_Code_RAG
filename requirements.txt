@@ -1,0 +1,43 @@
+# =============================================================================
+# Requirements for MF Prospectus Extraction System
+# =============================================================================
+
+# Core Frameworks
+streamlit
+fastapi
+uvicorn
+requests
+
+# Document Processing
+docling
+docling-core
+
+# PDF Rendering
+PyMuPDF
+
+# Vector Database
+chromadb
+
+# LangChain Ecosystem
+langchain
+langchain-core
+langchain-openai
+langchain-chroma
+
+# OpenAI
+openai
+
+# Transformers for tokenization
+transformers
+sentence-transformers
+
+# Data Processing
+pandas
+numpy
+
+# Image Processing
+Pillow
+
+# Utilities
+python-dotenv
+python-multipart
